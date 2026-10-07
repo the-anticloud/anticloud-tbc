@@ -1,0 +1,219 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "TBC",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\BRAIN_COMPUTER_INTERFACE\\TBC\\UPSTREAM_CLONE",
+  "git": {
+   "head": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE",
+   "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_verified_from": "local clone .git file read (no .git dir in clone)"
+  }
+ },
+ "metrics": {
+  "files_total": 3071,
+  "source_files_scanned": 30,
+  "lines_of_code": 144,
+  "languages": {
+   ".htm": 1350,
+   ".md": 741,
+   ".html": 733,
+   ".png": 96,
+   ".jpg": 72,
+   ".js": 30,
+   ".txt": 21,
+   ".pdf": 12,
+   ".gif": 5,
+   "(none)": 4,
+   ".css": 3,
+   ".bak": 1,
+   ".svg": 1,
+   ".jpeg": 1,
+   ".docx": 1
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 0,
+  "unique": 0,
+  "by_ecosystem": {},
+  "list": []
+ },
+ "owasp_top10": {
+  "total_findings": 4,
+  "files_with_findings": 4,
+  "severity": {
+   "high": 3,
+   "medium": 0,
+   "low": 1
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "a/google-code-prettify/prettify.js",
+      "line": 16,
+      "cwe": "CWE-95",
+      "snippet": "a.a=b;a.d=g.d;a.e=0;I(d,b)(a);var s=/\\bMSIE\\s(\\d+)/.exec(navigator.userAgent),s=s&&+s[1]<=8,d=/\\n/g,x=a.a,m=x.length,g=0,j=a.d,k=j.length,b=0,c=a.g,i=c.length,r=0;c[i]=m;var n,e;fo"
+     },
+     {
+      "severity": "high",
+      "file": "a/google-code-prettify/run_prettify.js",
+      "line": 20,
+      "cwe": "CWE-95",
+      "snippet": "a.h;try{var h=m(a.c,a.i),b=h.a;a.a=b;a.d=h.d;a.e=0;A(d,b)(a);var e=/\\bMSIE\\s(\\d+)/.exec(navigator.userAgent),e=e&&+e[1]<=8,d=/\\n/g,i=a.a,j=i.length,h=0,l=a.d,n=l.length,b=0,c=a.g,p"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 0,
+    "findings": []
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "a/google-code-prettify/lang-clj.js",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "high",
+      "file": "a/google-code-prettify/lang-matlab.js",
+      "line": 3,
+      "cwe": "CWE-494",
+      "snippet": "b.registerLangHandler(b.createSimpleLexer([],[[b.PR_KEYWORD,/^\\b(?:break|case|catch|classdef|continue|else|elseif|end|for|function|global|if|otherwise|parfor|persistent|return|spmd"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:042e510a-f363-5d8c-bef3-d4f956706e2e",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T09:23:28Z",
+   "component": {
+    "type": "application",
+    "name": "TBC",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/TBC@83b357604d34",
+    "purl": "pkg:generic/anticloud/TBC@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": []
+ },
+ "elapsed_seconds": 52.25
+}
