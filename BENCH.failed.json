@@ -1,0 +1,10 @@
+{
+  "project": "TBC",
+  "category": "BRAIN_COMPUTER_INTERFACE",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\BRAIN_COMPUTER_INTERFACE\\TBC",
+  "status": "failed",
+  "reason": "no 40-hex git HEAD SHA (head='REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE'; sanitized clone or .git absent)",
+  "files_count": 3071,
+  "lines_of_code": 144,
+  "sha": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+}
